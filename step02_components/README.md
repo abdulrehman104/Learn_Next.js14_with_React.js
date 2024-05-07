@@ -10,26 +10,45 @@ In React, components are the fundamental building blocks for creating user inter
 
 ## Key Points
 
-Components are a function.
-The first letter of a component's name is capitalized.
-Components are reusable.
-JSX includes HTML-like syntax mixed with JavaScript expressions.
-When rendered, JSX is converted into HTML elements.
-We write HTML and CSS inside JavaScript and TypeScript within a component.
-You can write JavaScript and TypeScript inside HTML within a component
+- Components are a function.
+- The first letter of a component's name is capitalized.
+- Components are reusable.
+- JSX includes HTML-like syntax mixed with JavaScript expressions.
+- When rendered, JSX is converted into HTML elements.
+- We write HTML and CSS inside JavaScript and TypeScript within a component.
+- You can write JavaScript and TypeScript inside HTML within a component
 
 ```tsx
 // Navbar
+
+import Link from "next/link";
+
+
+export default function Navbar() {
+  return (
+    <div>
+      <ul className="flex items-center justify-center gap-x-4 bg-slate-700">
+        <Link href='/'>Home</Link>
+        <Link href='/about'>About</Link>
+        <Link href='/contact'>Contact</Link>
+      </ul>
+    </div>
+  );
+}
+
 ```
 
 ```tsx
-// Hero Section
-```
+// Sidebar
 
-```tsx
-// Footer
-```
+const Sidebar = () => {
+  return (
+    <div>
+      <h1>sidebar</h1>
+    </div>
+  );
+};
 
-```tsx
-// Main Component
+export default Sidebar;
+
 ```
