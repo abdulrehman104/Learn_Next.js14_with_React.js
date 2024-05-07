@@ -2,29 +2,21 @@
 
 The skeleton of every application is routing.
 
-## Creating Routes:
+## How to create Next.js Route.
 
-Next.js uses a file-system based router where folders are used to define routes.
+There are two main ways to create routes in Next.js, depending on your project structure and preferences:
+
+### Src Directory and app folder:
+
+This is the most common approach and leverages Next.js's file-system based routing. Here's how it works:
+
+- Create a folder: Inside your project's pages directory, create a new folder for each route you want to define.
+- Add a page.js (or .jsx, .tsx) file: Within the newly created folder, add a file named page.js (or .jsx or .tsx). This file acts as the React component for that specific route.
+- File Name Convention: The name of the folder reflects the URL segment. For example, a folder named about creates a route accessible at /about.
+- Nested Routes: To create nested routes, simply create nested folders within the pages directory. The URL path reflects this hierarchy (e.g., /products/electronics).
 
 ```ts
 pages / index.js; // Home page
-about.js; // About page
-contact.js; // Contact page
+about / about.js; // About page
+contact / contact.js; // Contact page
 ```
-
-## Creating a simple Nested Routes:
-
-```
-pages/
-  blog/
-    blog1
-  products/
-    product1  
-```
-
-## Dynamic Routes:
-A Dynamic Segment can be created by wrapping a folder's name in square brackets: [folderName]. For example, [id] or [slug].
-
-
-## Route Groups
-![alt text](image.png)
