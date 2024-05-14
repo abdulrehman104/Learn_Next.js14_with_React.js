@@ -20,3 +20,4 @@ pages / index.js; // Home page
 about / about.js; // About page
 contact / contact.js; // Contact page
 ```
+[Routing & Nexted Routes](https://youtu.be/Hi2yZcXWTpw?si=4JgLh6C-Bjsvut7O)
