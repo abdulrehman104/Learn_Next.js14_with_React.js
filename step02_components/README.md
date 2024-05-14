@@ -52,3 +52,6 @@ const Sidebar = () => {
 export default Sidebar;
 
 ```
+
+
+[Components](https://youtu.be/_3rA2hA5AiM?si=s_599tGVL4KOVy1p)
