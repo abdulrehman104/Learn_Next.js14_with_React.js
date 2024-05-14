@@ -31,3 +31,7 @@
 
 
 ## Nested Layout:
+In Next.js, nested layouts allow you to create a hierarchical structure for your application's UI. Imagine it like placing layouts within layouts. This way, you can define common components (header, footer) at a higher level and then "nest" specific page content within them.
+
+
+[Nested Layout]()
