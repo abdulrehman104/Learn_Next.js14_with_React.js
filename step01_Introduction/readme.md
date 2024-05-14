@@ -45,3 +45,6 @@ What import alias would you like configured? @/_
 
 ## Folder Structure & First Program: 
 We'll explain this when we create the folder.
+
+
+[Introduction](https://www.youtube.com/watch?v=P935-qFJazQ&t=1142s)
